@@ -22,7 +22,7 @@ We trained our **Isolation Forest** anomaly detection model on the industry-stan
 
 Our model operates identically to how it runs on our ESP32 edge nodes—extracting Time-Domain features (RMS, Kurtosis) and Frequency-Domain features (FFT bands) over a simulated 28-day baseline observation period.
 
-![ML Validation Results](./assets/MechIQ_ML_Validation.png)
+![ML Validation Results](MechIQ_ML_Validation.png)
 *Results: Achieved >85% detection rate on catastrophic faults while maintaining a <5% false alarm rate on normal baselines.*
 
 ---
