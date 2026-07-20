@@ -30,7 +30,7 @@ Our model operates identically to how it runs on our ESP32 edge nodes—extracti
 ## Edge Hardware Architecture
 To ensure low latency and data privacy, the anomaly detection math happens directly on the machine. The raw high-frequency vibration data is processed locally, and only the "Health Score" is sent to the cloud.
 
-![System Architecture](./assets/MechIQpdf.pdf)
+![System Architecture](MechIQpdf.pdf)
 *Visual MVP: Sensor array topology mapped to the ESP32 microcontroller.*
 
 ---
